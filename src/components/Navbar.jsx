@@ -47,7 +47,7 @@ const Navbar = () => {
               </li>
               {showLinks && (
                 <div
-                  className="flex flex-col gap-3 mt-1 ml-[-18px] bg-white text-black p-4 w-40 rounded-md"
+                  className=" absolute flex flex-col gap-3 mt-1 ml-[-18px] bg-white text-black p-4 w-40 rounded-md"
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
